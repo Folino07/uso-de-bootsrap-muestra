@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Smooch&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://img.freepik.com/foto-gratis/bolsa-papel-alimentos_76263-1478.jpg?size=626&ext=jpg');
+    background-position: center center;
+   background-size: cover ;
+   background-repeat: no-repeat;
+   font-family: roboto,sans-serif;
+}
+
+.logo{
+
+}
+
+
+/*estilos del menu*/
+ul {
+    margin-top: 25px;
+    display: flex;  
+    flex-direction: row; 
+   align-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   font-size: 22px;
+  }
+  
+  li {
+    text-align: center;
+   padding: 5px 5px 5px 5px;
+    width: 5em;
+    display: inline;
+    margin:5px 5px 5px 5px ;
+    font-size: 22px;
+  }
+
+
+  a{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+ul :hover{
+  text-decoration: none;
+  border-radius: 70%;
+  background-color: rgb(76, 206, 50);
+}
+
+header{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(76, 206, 50);
+    position: relative;
+    margin-bottom: -10px;
+}
+
+.lalucha{
+   margin: 10px;
+   display: flex;  
+    flex-direction: row; 
+   align-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.card-img-top{
+    background-image: url('https://img.freepik.com/foto-gratis/bolsa-papel-alimentos_76263-1478.jpg?size=626&ext=jpg');
+}
+
+.card-body{
+    background-image: url('https://img.freepik.com/foto-gratis/bolsa-papel-alimentos_76263-1478.jpg?size=626&ext=jpg');
+}
+
+
+/*
+#carouselExampleControls{
+    max-width: 800px;
+    max-height: 200px;
+}
+
+
