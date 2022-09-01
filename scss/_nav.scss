@@ -1,0 +1,18 @@
+nav{
+    ul{
+        text-align: center;
+        font-size: ($font-menu*2);
+        li{
+            display: inline-block;
+            margin: 5px;
+            a{
+                color: rgb(249, 253, 0);
+                &:hover{
+                    text-decoration: none;
+                    border-radius: 70%;
+                    background-color: $color-famoso;
+                }                
+            }
+        }
+    }
+}
